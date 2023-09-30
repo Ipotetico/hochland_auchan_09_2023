@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hochland_auchan_09_2023/static/css/main.b7850e43.css",
-    "main.js": "/hochland_auchan_09_2023/static/js/main.f40199e9.js",
-    "index.html": "/hochland_auchan_09_2023/index.html",
-    "main.b7850e43.css.map": "/hochland_auchan_09_2023/static/css/main.b7850e43.css.map",
-    "main.f40199e9.js.map": "/hochland_auchan_09_2023/static/js/main.f40199e9.js.map"
+    "main.css": "./static/css/main.ef1ab72e.css",
+    "main.js": "./static/js/main.bc656c2e.js",
+    "index.html": "./index.html",
+    "main.ef1ab72e.css.map": "./static/css/main.ef1ab72e.css.map",
+    "main.bc656c2e.js.map": "./static/js/main.bc656c2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7850e43.css",
-    "static/js/main.f40199e9.js"
+    "static/css/main.ef1ab72e.css",
+    "static/js/main.bc656c2e.js"
   ]
 }
