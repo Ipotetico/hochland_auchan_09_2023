@@ -76,3 +76,28 @@ body {
         }
     }
 }
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    font-size: calc(1vh + 2px);
+    color: #ffff;
+    background-color: #24408f;
+    padding: .3vh 1vh;
+    width: 100vw;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+        height: 8px;
+        margin-right: 1vh;
+        margin-left: .5vh;
+    }
+}

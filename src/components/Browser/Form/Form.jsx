@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Form.scss'
 
-const Form = ({ open, setOpen, name, setName, surename, setSurename, email, setEmail, paragon, setParagon, phone, setPhone, answer, setAnswer, radio, setRadio, consent, setConsent, validPhone, setValidPhone }) => {
+const Form = ({ open, setOpen, name, setName, surename, setSurename, email, setEmail, paragon, setParagon, phone, setPhone, answer, setAnswer, radio, setRadio, consent, setConsent, validPhone, setValidPhone, handleSubmit }) => {
 
 
-  console.log(name, surename, email, paragon, phone, answer)
 
   const handleChangePhone = e => {
     const input = e.target.value;
@@ -17,28 +16,6 @@ const Form = ({ open, setOpen, name, setName, surename, setSurename, email, setE
     return phoneNumberPattern.test(phone)
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    if (name.length === 0) {
-      alert("Proszę podać imię")
-    }
-    else if (surename.length === 0) {
-      alert("Proszę podać nazwisko")
-    }
-    else if (paragon.length === 0) {
-      alert("Proszę podać kod paragonu")
-    }
-    else if (email.length === 0) {
-      alert("Proszę podać adres e-mail")
-    }
-    else if (phone.length === 0) {
-      alert("Proszę podać numer telefonu")
-    }
-    else if (answer.length === 0) {
-      alert("Proszę wpisać odpowiedź")
-    }
-
-  }
 
   return (
     <>

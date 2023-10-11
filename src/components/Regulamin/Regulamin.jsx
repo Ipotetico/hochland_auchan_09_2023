@@ -21,6 +21,7 @@ const Regulamin = ({ open, setOpen }) => {
                     <ul>
                         <li>
                             Konkurs będzie prowadzony pod nazwą „Wygraj z Almette” (zwany dalej „Konkursem”).
+
                         </li>
                         <li>
                             Niniejszy regulamin określa zasady udziału w Konkursie, zasady jego przebiegu, a także nadzoru nad jego przeprowadzeniem oraz zasady przeprowadzania postępowań reklamacyjnych (zwany dalej „Regulaminem”).
@@ -34,18 +35,23 @@ const Regulamin = ({ open, setOpen }) => {
                         </li>
                         <li>
                             Uczestnikiem Konkursu może być każda pełnoletnia osoba fizyczna, mająca pełną zdolność do czynności prawnych, zamieszkała na terenie Polski, dokonująca zakupu produktów uprawniających do wzięcia udziału w Konkursie, w celu niezwiązanym bezpośrednio z jej działalnością gospodarczą lub zawodową, w placówkach handlowych Auchan prowadzących sprzedaż produktów objętych Konkursem (zwany dalej „Uczestnikiem”).
+
                         </li>
                         <li>
                             Konkurs rozpocznie się i trwać będzie od 12.10.2023 roku do 10.12.2023 roku, przy czym ostatnim dniem Konkursu jest dzień zakończenia procedury weryfikacyjnej wskazany w §3 ust. 9 pkt f) Regulaminu.
+
                         </li>
                         <li>
-                            Sprzedaż produktów objętych Konkursem rozpocznie się 12.10.2023 roku, a zakończy 26.10.2023 roku lub do wyczerpania zapasów („Okres Promocji”). Konkurs obejmuje wszystkie sery Almette z oznaczeniem loteryjnym - zwane dalej „Produktami Promocyjnymi”. Zakup towarów objętych Konkursem przed lub po w/w terminie nie uprawnia do wzięcia udziału w Konkursie.
+                            Sprzedaż produktów objętych Konkursem rozpocznie się 12.10.2023 roku, a zakończy 26.10.2023 roku („Okres Promocji”). Konkurs obejmuje wszystkie sery Almette z oznaczeniem loteryjnym - zwane dalej „Produktami Promocyjnymi”. Zakup towarów objętych Konkursem przed lub po w/w terminie nie uprawnia do wzięcia udziału w Konkursie.
+
                         </li>
                         <li>
                             W Konkursie nie mogą brać udziału pracownicy Organizatora Konkursu, a także pracownicy spółki Hochland Polska Sp. z o.o. z siedzibą w Kaźmierzu, oraz członkowie ich najbliższych rodzin. Przez „członków najbliższej rodziny” rozumie się wstępnych, zstępnych, rodzeństwo, małżonków, konkubentów oraz osoby pozostające w stosunku przysposobienia. Przez „pracowników” rozumie się także osoby wykonujące świadczenia na rzecz w/w podmiotów na podstawie umowy cywilnoprawnej, w szczególności na podstawie umowy zlecenia, umowy o dzieło lub umowy o świadczenie usług.
+
                         </li>
                         <li>
                             W związku prowadzeniem Konkursu Organizator świadczy na rzecz Uczestników usługi elektroniczne za pośrednictwem strony internetowej www.wygrajzalmette.pl oraz poczty elektronicznej, w szczególności polegające na umożliwieniu uczestnictwa w Konkursie i utrzymywania kont Uczestników, a także kontaktowania, weryfikacji warunków uczestnictwa w Konkursie oraz przyznania nagród.
+
                         </li>
 
                     </ul>
@@ -57,12 +63,15 @@ const Regulamin = ({ open, setOpen }) => {
                             <ol className="podpunkty">
                                 <li>
                                     dokonać zakupu dwóch Produktów Promocyjnych (Almette) z oznaczeniem loteryjnym,
+
                                 </li>
                                 <li>
-                                    wykonać zadanie konkursowe polegające na przygotowaniu opisu: <span className='italic'>„Opisz kuchnię swoich marzeń”</span>  - zadanie konkursowe powinno być wykonane w sposób kreatywny, nietuzinkowy i ciekawy (zakazuje się dostarczania treści o charakterze bezprawnym) - a także
+                                    wykonać zadanie konkursowe polegające na przygotowaniu opisu: „Opisz kuchnię swoich marzeń” - zadanie konkursowe powinno być wykonane w sposób kreatywny, nietuzinkowy i ciekawy (zakazuje się dostarczania treści o charakterze bezprawnym) - a także
+
                                 </li>
                                 <li>
                                     dokonać prawidłowego zgłoszenia do udziału w Konkursie, w sposób określony w ust. 4 poniżej.
+
                                 </li>
                             </ol>
                         </li>
@@ -70,7 +79,8 @@ const Regulamin = ({ open, setOpen }) => {
                             Uczestnik jest zobowiązany zachować oryginał dowodu/dowodów zakupu Produktów Promocyjnych objętych Konkursem (paragon fiskalny, faktura VAT - wystawione na osobę fizyczną nieprowadzącą działalności gospodarczej) w celu potwierdzenia uprawnień do ewentualnej nagrody. Dzień i godzina na dowodzie/dowodach zakupu nie mogą być późniejsze niż dzień i godzina dokonania zgłoszenia w Konkursie, którego ma dotyczyć ten dowód/dowody, tj. konkretne zgłoszenie musi zostać wykonane po zakupie Produktów Promocyjnych.
                         </li>
                         <li>
-                            Prawidłowe zgłoszenie udziału w Konkursie, dla swej ważności i skuteczności polega na wypełnieniu przez Uczestnika formularza on-line na stronie <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a>  oraz wprowadzeniu przez Uczestnika zadania konkursowego. Zgłoszenie udziału w Konkursie wymaga również podania numeru dowodu zakupu Produktów promocyjnych (tj. nr paragonu fiskalnego lub faktury VAT), oraz potwierdzenia o poinformowaniu o polityce prywatności, znajdującej się na stronie <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a>. Formularz on-line wymaga podania danych osobowych Uczestnika koniecznych do weryfikacji i realizacji prawa do Nagrody: imię i nazwisko, adres e-mail.
+                            Prawidłowe zgłoszenie udziału w Konkursie, dla swej ważności i skuteczności polega na wypełnieniu przez Uczestnika formularza on-line na stronie <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a> oraz wprowadzeniu przez Uczestnika zadania konkursowego. Zgłoszenie udziału w Konkursie wymaga również podania numeru dowodu zakupu Produktów promocyjnych (tj. nr paragonu fiskalnego lub faktury VAT), oraz potwierdzenia o poinformowaniu o polityce prywatności, znajdującej się na stronie <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a>. Formularz on-line wymaga podania danych osobowych Uczestnika koniecznych do weryfikacji i realizacji prawa do Nagrody: imię i nazwisko, adres e-mail.
+
                         </li>
                         <li>
                             Przesłane zgłoszenie zostanie potwierdzone na stronie internetowej <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a> na banerze w formie komunikatu bezpośrednio po dokonaniu zgłoszenia w terminie od 12.10.2023 roku do 26.10.2023 roku. W Konkursie ważne są jedynie zgłoszenia wysyłane za pośrednictwem formularza zamieszczonego na stronie internetowej <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a>, tj. Nie będą uwzględniane zgłoszenia wysyłane za pośrednictwem poczty e-mail.
@@ -82,12 +92,16 @@ const Regulamin = ({ open, setOpen }) => {
                             W Konkursie nie będą uwzględniane:
                             <ol className="podpunkty">
                                 <li>
-                                    zgłoszenia za pośrednictwem strony <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a>  nie spełniające warunków określonych w ust. 1 lit. a i b niniejszego paragrafu,
+                                    zgłoszenia za pośrednictwem strony <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a> nie spełniające warunków określonych w ust. 1 lit. a i b niniejszego paragrafu,
+
                                 </li>
                                 <li>
                                     zgłoszenia wysłane inaczej niż za pośrednictwem formularza na stronie <a href="http://www.wygrajzalmette.pl">www.wygrajzalmette.pl</a>,
                                 </li>
                                 <li>zgłoszenia niezawierające nr dowodu zakupu Produktów Promocyjnych,</li>
+                                <li>
+                                    zgłoszenia niezawierające nr dowodu zakupu Produktów Promocyjnych,
+                                </li>
                                 <li>
                                     zgłoszenia zawierające wykonanie zadania konkursowego, których treść narusza dobre obyczaje, przepisy prawne, jest obraźliwe, niemoralne lub zawiera inne treści o charakterze bezprawnym.
                                 </li>
@@ -115,17 +129,19 @@ const Regulamin = ({ open, setOpen }) => {
                                 </li>
                                 <li>
                                     Nagrody II stopnia –Blender kielichowy PHILIPS HR2291/41, o wartości brutto 251 PLN. Do każdej nagrody II stopnia przewidziano dodatkowe świadczenie pieniężne o wartości 27,89 PLN, które zostanie potrącone przy wydaniu nagrody z  przeznaczeniem na zapłatę podatku dochodowego z tytułu wygranej w Konkursie. Łączna wartość nagrody II stopnia wynosi 278,89 PLN. Przewidziano 15 nagród II stopnia. Jeden Uczestnik może wygrać tylko jedną nagrodę II stopnia, weryfikacja odbędzie się na podstawie podanych danych osobowych. Nagrody II-go stopnia wybierane są każdego dnia, ale uczestnik zostaje poinformowany o zwycięstwie po zakończeniu konkursu.
+
                                 </li>
                             </ol>
                         </li>
                         <li>
-                            Łączna wartość nagród wynosi brutto – 15 294, 35 PLN.
+                            Łączna wartość nagród wynosi brutto – 15 294,35 PLN.
                         </li>
                         <li>
                             Organizator powoła Komisję Konkursową składającą się z trzech osób wskazanych przez Organizatora. Komisja Konkursowa będzie obradowała na niejawnych posiedzeniach w siedzibie Organizatora do dnia 09.11.2023 roku.
                         </li>
                         <li>
                             Organizator może opublikować na stronie Internetowej: www.wygrajzalmette.pl imię i pierwszą literę nazwiska Laureata oraz nazwę miejscowości i ulicy, przy której znajduje się sklep, w którym dokonano zakupu Produktu Promocyjnego zgłoszonego do Konkursu.
+
                         </li>
                         <li>
                             Wśród wszystkich zgłoszeń Komisja Konkursowa dokona wyboru 16 najlepiej wykonanych zadań konkursowych, których autorzy otrzymają nagrodę. Dodatkowo zostanie wyłoniona lista 5 laureatów rezerwowych.
@@ -156,6 +172,7 @@ const Regulamin = ({ open, setOpen }) => {
                                 </li>
                                 <li>
                                     rozstrzygnięcie Konkursu (ocena Zadań Konkursowych przesłanych przez Uczestników) zgodnie z postanowieniami niniejszego Regulaminu oraz zasadami pełnej rzetelności przeprowadzonych czynności,
+
                                 </li>
                                 <li>
                                     sporządzenie protokołu z podaniem wyników,
@@ -176,12 +193,13 @@ const Regulamin = ({ open, setOpen }) => {
                         </li>
                         <li>
                             Weryfikacja prawa do nagrody będzie prowadzona w następujący sposób:
+
                             <ol className="podpunkty">
                                 <li>
                                     W ciągu 14 dni od daty posiedzenia Komisji, Uczestnik otrzyma w imieniu Organizatora e-mail, na adres, który został podany w Formularzu on-line przy Zgłoszeniu udziału w Konkursie,
                                 </li>
                                 <li>
-                                    Uczestnik w wiadomości e-mail zostanie powiadomiony o wyniku Konkursui poproszony o potwierdzenie uczestnictwa w Konkursie oraz danych osobowych i adresowych koniecznych do wydania nagrody (imię, nazwisko, adres zamieszkania wraz z ulicą i numerem domu/mieszkania, kodem pocztowym i miejscowością),
+                                    Uczestnik w wiadomości e-mail zostanie powiadomiony o wyniku Konkursu i poproszony o potwierdzenie uczestnictwa w Konkursie oraz danych osobowych i adresowych koniecznych do wydania nagrody (imię, nazwisko, adres zamieszkania wraz z ulicą i numerem domu/mieszkania, kodem pocztowym i miejscowością),
                                 </li>
                                 <li>
                                     Organizator zażąda od Uczestnika przesłania w terminie 3 dni drogą elektroniczną zdjęcia lub skanu oryginału dowodu zakupu (paragon fiskalny lub faktura VAT) nie przekraczający 3 MB, na wskazany adres e-mail w celu weryfikacji prawa Laureata do nagrody. Organizator przedstawi takie żądanie poprzez e-mail, określony w pkt b) powyżej. W razie wątpliwości co do autentyczności zdjęcia lub skanu, Organizator może dodatkowo zażądać przesłania oryginału wymaganych dokumentów na adres: Growth Design Studio Sp. z o.o., z siedzibą Warszawie, ul. Marysińska 4c, 04 – 617 Warszawa w ciągu 5 dni od daty przedstawienia takiego żądania przez Organizatora lub zdjęcia dowodu zakupu w innym formacie niż przesłany (jpg albo png). O zachowaniu terminu decyduje data stempla pocztowego.
@@ -272,7 +290,7 @@ const Regulamin = ({ open, setOpen }) => {
                     </h2>
                     <ul>
                         <li>
-                            Dane osobowe przetwarzane są zgodnie z wymogami Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Ogólne Rozporządzenie o Ochronie Danych) (dalej <b>RODO</b>) oraz ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych (Dz. U. z 2019 r. poz. 1781).
+                            Dane osobowe przetwarzane są zgodnie z wymogami Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (Ogólne Rozporządzenie o Ochronie Danych) (dalej RODO) oraz ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych (Dz. U. z 2019 r. poz. 1781).
                         </li>
                         <li>
                             Administratorem danych osobowych Uczestników Konkursu jest Hochland Polska Sp. z o.o. z siedzibą w Kaźmierzu (64-530) przy ul. Okrężnej 2. Administrator powołał Inspektora Ochrony Danych, z którym można skontaktować się za pośrednictwem adresu e-mail: <a href="mailto:daneosobowe@hochland.com">daneosobowe@hochland.com</a>.

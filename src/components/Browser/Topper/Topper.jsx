@@ -40,8 +40,7 @@ const Topper = () => {
             tl.to(mountainsRef.current,
 
                 {
-                    filter: "blur(1px)",
-                    scale: 0.9,
+                    scale: 0.95,
                     duration: 30,
                     y: "-50%"
                 }, -10)
@@ -50,7 +49,7 @@ const Topper = () => {
             tl.to(logoRef.current, {
                 filter: "blur(5px)",
                 duration: 20,
-                y: "-0%"
+                y: "-20%"
             },
                 20)
         });
@@ -61,11 +60,16 @@ const Topper = () => {
         <>
             <div className="topper_container">
 
-
                 <div ref={skyRef} className="sky">
                     <img className='headline' src={process.env.PUBLIC_URL + `/images/headline.svg`} alt="headline" />
-                    <img ref={mountainsRef} className='gory' src={process.env.PUBLIC_URL + `/images/TLO.webp`} alt="gory" />
-                    <img ref={cloudsRef} className='chmury' src={process.env.PUBLIC_URL + `/images/chmury.webp`} alt="chmury" />
+
+                    <div ref={mountainsRef} className="gory">
+                        <img src={process.env.PUBLIC_URL + `/images/TLO.webp`} alt="gory" />
+                    </div>
+
+                    <div ref={cloudsRef} className='chmury' >
+                        <img src={process.env.PUBLIC_URL + `/images/chmury.webp`} alt="chmury" />
+                    </div>
                 </div>
             </div>
         </>

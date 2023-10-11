@@ -9,14 +9,20 @@ const Konkurs = ({ open, setOpen, name, setName, surename, setSurename, email, s
 
 
     return (
-        <div className="container_konkurs">
-            <Promo />
-            <Form open={open} setOpen={setOpen} name={name} setName={setName} surename={surename} setSurename={setSurename} email={email} setEmail={setEmail} paragon={paragon} setParagon={setParagon} phone={phone} setPhone={setPhone} answer={answer} setAnswer={setAnswer} radio={radio} setRadio={setRadio} consent={consent} setConsent={setConsent} validPhone={validPhone} setValidPhone={setValidPhone} />
+        <>
+            <div className="container_konkurs">
+                <img className='arc' src={process.env.PUBLIC_URL + `/images/arc.svg`} alt="" />
+                <Promo />
+                <Form open={open} setOpen={setOpen} name={name} setName={setName} surename={surename} setSurename={setSurename} email={email} setEmail={setEmail} paragon={paragon} setParagon={setParagon} phone={phone} setPhone={setPhone} answer={answer} setAnswer={setAnswer} radio={radio} setRadio={setRadio} consent={consent} setConsent={setConsent} validPhone={validPhone} setValidPhone={setValidPhone} />
 
-            <footer className="arc">
-                <img src={process.env.PUBLIC_URL + `/images/arc.svg`} alt="" />
-            </footer>
-        </div>
+
+
+
+            </div>
+            <p className="copyright">
+                © <img src={process.env.PUBLIC_URL + `/images/almette_logo_white.svg`} alt="" /> 2023  |  ALL RIGHTS REServed
+            </p>
+        </>
     )
 }
 

@@ -1,0 +1,60 @@
+.popup {
+    position: fixed;
+    width: 0vw;
+    height: 0vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+
+
+
+    &.message {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    img {
+        position: fixed;
+        width: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tlo {
+        position: fixed;
+        width: 0vw;
+        height: 0vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 1s;
+        opacity: 0;
+
+        &.open {
+            opacity: 1;
+            width: 100vw;
+            height: 100vh;
+
+            img {
+                position: fixed;
+                width: auto;
+                height: 100vh;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+
+    }
+}

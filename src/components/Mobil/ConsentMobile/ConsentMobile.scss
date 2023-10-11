@@ -1,0 +1,46 @@
+.consentMobile_container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    margin-bottom: 2vh;
+    font-weight: 200;
+    font-size: calc(12px + 1vh);
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+
+    .tick_mobile {
+        justify-self: center;
+        align-self: flex-start;
+        position: relative;
+        width: 5vh;
+        height: 5vh;
+        border: 1px solid #6f6f6f;
+        background-color: white;
+        border-radius: 50%;
+        z-index: 1000;
+        padding: 1vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        box-sizing: border-box;
+        outline-offset: -12px;
+
+        &.active {
+            border: 12px solid #e0001a;
+            outline-offset: 12px;
+        }
+
+    }
+
+    p {
+        margin-left: 2vh;
+        background-color: white;
+
+        span {
+            color: dodgerblue;
+            text-decoration: underline;
+        }
+    }
+}

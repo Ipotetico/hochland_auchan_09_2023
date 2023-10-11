@@ -3,7 +3,7 @@
     right: -100%;
     top: 50%;
     transform: translateY(-50%);
-    width: 80vw;
+    width: 90vw;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -17,13 +17,13 @@
     transition: all 0.7s;
 
     &.open {
-        right: -1%;
+        right: 0%;
     }
 
     .close {
         position: sticky !important;
         z-index: 10001;
-        top: 0%;
+        top: 2%;
         left: 97%;
         width: 20px;
         height: 20px;
@@ -45,7 +45,7 @@
 
     h2 {
         font-family: 'Barlow Condensed', sans-serif;
-        font-size: calc(1vw + 10px);
+        font-size: calc(1vw + 12px);
         font-weight: 400;
         margin-top: 2vw;
         margin-bottom: 1vw;
@@ -58,7 +58,7 @@
         li {
             list-style: numeric;
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: calc(1vw + 5px);
+            font-size: calc(1vw + 7px);
             font-weight: 200;
             margin-bottom: 1vw;
             line-height: 1.1;
@@ -78,7 +78,7 @@
         li {
             list-style: lower-alpha;
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: calc(1vw + 5px);
+            font-size: calc(1vw + 7px);
             font-weight: 200;
             margin-bottom: 1vw;
             margin: 0;

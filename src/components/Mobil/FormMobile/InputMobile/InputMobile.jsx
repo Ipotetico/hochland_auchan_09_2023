@@ -1,11 +1,16 @@
 import React from 'react'
 import './InputMobile.scss'
 
-const InputMobile = ({ content, type, textarea }) => {
+const InputMobile = ({ name, type, textarea, action, capitalize, handleChange }) => {
+
+
+
+
     return (
         <div className={textarea ? "wiersz_mobile textarea" : "wiersz_mobile"}>
-            <input type={type} />
-            <label className='label_mobile' htmlFor="">{content}</label>
+            <input style={{ textTransform: capitalize ? "capitalize" : "none" }} name={name} onChange={handleChange} type={type} />
+            <label className='label_mobile' htmlFor="">{name}</label>
+
         </div>
     )
 }

@@ -8,7 +8,8 @@ const Promo = () => {
                 <img src={process.env.PUBLIC_URL + `/images/nagroda_copy.svg`} alt="nagroda copy" />
             </div>
             <div className="nagroda">
-                <img src={process.env.PUBLIC_URL + `/images/blender_nagroda.webp`} alt="blender" />
+
+                <video src={process.env.PUBLIC_URL + `/video/blender.mp4`} autoPlay playsInline muted loop className='blender' />
             </div>
             <div className='red' target='blank' href="https://wygrajzalmette.pl">
                 <img src={process.env.PUBLIC_URL + `/images/mechanika.svg`} alt="mechanika" />
